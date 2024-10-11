@@ -1,0 +1,1 @@
+Home assitant integration allow send files from MotionEye to your own telegram chat through the bot
