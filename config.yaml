@@ -1,0 +1,25 @@
+name: Telegram FTP bot
+description: This integretion helps to send file from bot, over ftp
+version: 1.0.0
+slug: telegram_ftp_bot
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: services
+
+host_network: true
+network:
+  5000/UDP: FTP port
+
+options:
+  token: null
+  chait_id: null
+
+schema:
+  token: str
+  chat_id: int
+
